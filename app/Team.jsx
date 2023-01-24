@@ -16,7 +16,7 @@
 */
 
 import CEO from "../images/ceo.jpg";
-import Consultant from "../images/consultant.JPG";
+import Consultant from "../images/consultant.jpg";
 import Image from "next/image";
 
 const people = [

@@ -161,8 +161,8 @@ export default function Header() {
                   </button>
                 </form>
                 <p className="mt-3 text-sm text-gray-500">
-                  We care about the protection of your data. Your Email won't be
-                  shared with anyone else.
+                  We care about the protection of your data. Your Email will not
+                  be shared with anyone else.
                 </p>
               </div>
             </div>

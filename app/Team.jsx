@@ -16,9 +16,10 @@
 */
 
 import CEO from "../images/ceo.jpg";
-import Consultant from "../images/consultant.jpg";
+import Norman from "../images/consultant.jpg";
 import Image from "next/image";
 import Victor from "../images/victor.jpg";
+import Sharman from "../images/sharman.jpg";
 
 const people = [
   {
@@ -39,9 +40,17 @@ const people = [
   },
   {
     name: "Norman Shoko ",
-    role: "Part-Time consultant",
-    imageUrl: Consultant,
-    bio: "Ultricied massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.",
+    role: "Researcher",
+    imageUrl: Norman,
+    bio: "Ultricied massa fmalesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.",
+    twitterUrl: "#",
+    linkedinUrl: "#",
+  },
+  {
+    name: "Sharman Mateko ",
+    role: "Consultant",
+    imageUrl: Sharman,
+    bio: "Ultricied massa fmalesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.",
     twitterUrl: "#",
     linkedinUrl: "#",
   },

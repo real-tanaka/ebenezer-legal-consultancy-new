@@ -37,6 +37,14 @@ const people = [
     twitterUrl: "#",
     linkedinUrl: "#",
   },
+  {
+    name: "Norman Shoko ",
+    role: "Part-Time consultant",
+    imageUrl: Consultant,
+    bio: "Ultricied massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.",
+    twitterUrl: "#",
+    linkedinUrl: "#",
+  },
   // More people...
 ];
 

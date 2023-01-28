@@ -1,13 +1,21 @@
 /* This example requires Tailwind CSS v2.0+ */
 import {
-  ArrowUturnLeftIcon,
-  ChatBubbleLeftEllipsisIcon,
-  DocumentChartBarIcon,
+  PlusIcon,
+  PlusCircleIcon,
+  ArrowLeftOnRectangleIcon,
+  InformationCircleIcon,
+  ChartPieIcon,
+  ChatBubbleLeftRightIcon,
+  HandThumbUpIcon,
+  BanknotesIcon,
+  CurrencyDollarIcon,
+  DocumentIcon,
+  BookmarkSquareIcon,
+  HomeModernIcon,
+  ShieldCheckIcon,
   HeartIcon,
-  InboxIcon,
-  PencilSquareIcon,
-  TrashIcon,
-  UsersIcon,
+  ScaleIcon,
+  UserGroupIcon,
 } from "@heroicons/react/24/outline";
 
 const features = [
@@ -15,85 +23,85 @@ const features = [
     name: "Health Legislation and Draft Legislation",
     description:
       "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: InboxIcon,
+    icon: PlusIcon,
   },
   {
     name: "Health Policy",
     description:
       "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: UsersIcon,
+    icon: PlusCircleIcon,
   },
   {
     name: "B-BBEE",
     description:
       "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: TrashIcon,
+    icon: ArrowLeftOnRectangleIcon,
   },
   {
     name: "Information, Data and Privacy / Confidentiality",
     description:
       "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: PencilSquareIcon,
+    icon: InformationCircleIcon,
   },
   {
     name: "Employment Equity",
     description:
       "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: DocumentChartBarIcon,
+    icon: ChartPieIcon,
   },
   {
     name: "Consumer Rights",
     description:
       "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: ArrowUturnLeftIcon,
+    icon: HandThumbUpIcon,
   },
   {
     name: "Section Health Care Funding and Access (social security, NHI, medical schemes etc)",
     description:
       "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: ChatBubbleLeftEllipsisIcon,
+    icon: CurrencyDollarIcon,
   },
   {
     name: "Funding in the Public Health Sector",
     description:
       "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: HeartIcon,
+    icon: BanknotesIcon,
   },
   {
     name: "Ethics / Code of Marketing Practices",
     description:
       "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: HeartIcon,
+    icon: DocumentIcon,
   },
   {
     name: "Health Professional Legislation",
     description:
       "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: HeartIcon,
+    icon: BookmarkSquareIcon,
   },
   {
     name: "Economic and Industrial Development",
     description:
       "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: HeartIcon,
+    icon: HomeModernIcon,
   },
   {
     name: "Corporate Governance and Legal Compliance Audits",
     description:
       "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: HeartIcon,
+    icon: ShieldCheckIcon,
   },
   {
     name: "Human Rights and Constitutional Law",
     description:
       "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: HeartIcon,
+    icon: UserGroupIcon,
   },
   {
     name: "Administrative Justice",
     description:
       "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: HeartIcon,
+    icon: ScaleIcon,
   },
   {
     name: "Occupational Health Law",

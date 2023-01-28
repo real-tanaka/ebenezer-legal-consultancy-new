@@ -5,6 +5,7 @@ import Feature from "./Feature";
 import Footer from "./Footer";
 import Team from "./Team";
 import Contact from "./Contact";
+import Blog from "./Blog";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,6 +16,7 @@ export default function Home() {
       <Feature />
       <Team />
       <Contact />
+      <Blog />
       <Footer />
     </div>
   );

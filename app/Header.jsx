@@ -7,6 +7,7 @@ import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import HeaderImage from "../images/header.jpg";
+import Logo from "../images/logo-fitted.png";
 
 const navigation = [
   { name: "Features", href: "#Features" },
@@ -39,10 +40,12 @@ export default function Header() {
                   <div className="flex w-full items-center justify-between md:w-auto">
                     <a href="#">
                       <span className="sr-only">Your Company</span>
-                      <img
+                      <Image
                         alt="Your Company"
-                        className="h-8 w-auto sm:h-10"
-                        src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                        className="h-10 w-auto sm:h-15"
+                        src={Logo}
+                        height={1000}
+                        width={1000}
                       />
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
@@ -63,12 +66,6 @@ export default function Header() {
                       {item.name}
                     </a>
                   ))}
-                  <a
-                    href="#"
-                    className="font-medium text-indigo-600 hover:text-indigo-500"
-                  >
-                    Log in
-                  </a>
                 </div>
               </nav>
             </div>

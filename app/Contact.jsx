@@ -14,9 +14,35 @@
   }
   ```
 */
+"use client";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/outline";
 
 export default function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_s17kc5n",
+        "template_keyq5gs",
+        form.current,
+        "T0ga101nzYZR_3HNK"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
+
   return (
     <div className="bg-gray-100" id="Contact">
       <div className="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
@@ -206,6 +232,8 @@ export default function Contact() {
                 Send us a message
               </h3>
               <form
+                ref={form}
+                onSubmit={sendEmail}
                 action="#"
                 method="POST"
                 className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"

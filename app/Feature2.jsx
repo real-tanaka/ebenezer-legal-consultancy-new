@@ -104,6 +104,7 @@ export default function Feature2() {
           </div>
         </div>
       </div>
+      <div className="h-4 bg-indigo-600 w-full"></div>
     </>
   );
 }

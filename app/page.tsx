@@ -14,8 +14,8 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <Feature2 />
       <Feature />
+      <Feature2 />
       <Team />
       <Contact />
       <Blog />

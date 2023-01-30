@@ -116,7 +116,7 @@ export default function Feature() {
     <div className="bg-indigo-700" id="Features">
       <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:px-8 lg:pt-24">
         <h2 className="text-3xl font-bold tracking-tight text-white">
-          More Services:
+          Services:
         </h2>
         <p className="mt-4 max-w-3xl text-lg text-indigo-200">
           Services we offer at Ebenezer Legal Consultancy

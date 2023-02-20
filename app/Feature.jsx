@@ -16,6 +16,7 @@ import {
   HeartIcon,
   ScaleIcon,
   UserGroupIcon,
+  LifebuoyIcon,
 } from "@heroicons/react/24/outline";
 
 const features = [
@@ -109,6 +110,12 @@ const features = [
       "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
     icon: HeartIcon,
   },
+  {
+    name: "Assistance with Clinical Forensic Investigations from Medical Schemes",
+    description:
+      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+    icon: LifebuoyIcon,
+  },
 ];
 
 export default function Feature() {
@@ -121,7 +128,7 @@ export default function Feature() {
         <p className="mt-4 max-w-3xl text-lg text-indigo-200">
           Services we offer at Ebenezer Legal Consultancy
         </p>
-        <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
+        <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16 flex">
           {features.map((feature) => (
             <div key={feature.name}>
               <div>
@@ -136,9 +143,10 @@ export default function Feature() {
                 <h3 className="text-lg font-medium text-white">
                   {feature.name}
                 </h3>
+                {/* 
                 <p className="mt-2 text-base text-indigo-200">
                   {feature.description}
-                </p>
+                </p>*/}
               </div>
             </div>
           ))}

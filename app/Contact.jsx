@@ -17,7 +17,11 @@
 "use client";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/outline";
+import {
+  EnvelopeIcon,
+  PhoneIcon,
+  DevicePhoneMobileIcon,
+} from "@heroicons/react/24/outline";
 
 export default function Contact() {
   const form = useRef();
@@ -155,18 +159,31 @@ export default function Contact() {
                 Contact information
               </h3>
               <h3 className="mt-6 text-md font-medium text-white">Address:</h3>
-              <p className="max-w-3xl text-base text-indigo-50">1 Pegasus</p>
+              <p className="max-w-3xl text-base text-indigo-50">Ground Floor</p>
               <p className="max-w-3xl text-base text-indigo-50">
-                Amarand Street
+                Southdowns Ridge Office Park
               </p>
-              <p className="max-w-3xl text-base text-indigo-50">Menlyn Maine</p>
-              <p className="max-w-3xl text-base text-indigo-50">Pretoria</p>
+              <p className="max-w-3xl text-base text-indigo-50">
+                Cnr John Vorster & Nellmapius Drive
+              </p>
+              <p className="max-w-3xl text-base text-indigo-50">Irene</p>
+              <p className="max-w-3xl text-base text-indigo-50">Centurion</p>
               <dl className="mt-8 space-y-6">
+                <dt>
+                  <span className="sr-only">Telephone</span>
+                </dt>
+                <dd className="flex text-base text-indigo-50">
+                  <PhoneIcon
+                    className="h-6 w-6 flex-shrink-0 text-indigo-200"
+                    aria-hidden="true"
+                  />
+                  <span className="ml-3">+ (012) 003-3253</span>
+                </dd>
                 <dt>
                   <span className="sr-only">Phone number</span>
                 </dt>
                 <dd className="flex text-base text-indigo-50">
-                  <PhoneIcon
+                  <DevicePhoneMobileIcon
                     className="h-6 w-6 flex-shrink-0 text-indigo-200"
                     aria-hidden="true"
                   />
